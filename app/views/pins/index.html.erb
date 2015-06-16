@@ -1,1 +1,3 @@
-This is the index
+<%@pins.each do |pin| %>
+    <h2><%= link_to pin.title, pin %>
+<% end %>
