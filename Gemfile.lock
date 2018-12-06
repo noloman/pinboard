@@ -42,8 +42,8 @@ GEM
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    acts_as_votable (0.11.1)
     arel (9.0.0)
+    acts_as_votable (0.12.0)
     autoprefixer-rails (9.3.1)
       execjs
     bcrypt (3.1.12)
@@ -200,7 +200,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  acts_as_votable (~> 0.11.1)
+  acts_as_votable (~> 0.12.0)
   bootstrap-sass
   byebug
   coffee-rails (~> 4.2.2)
